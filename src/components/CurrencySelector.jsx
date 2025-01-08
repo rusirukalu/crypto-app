@@ -1,5 +1,4 @@
-
-import PropTypes from 'prop-types';
+import { PropTypes } from 'prop-types';
 
 const CurrencySelector = ({ onChange }) => {
   return (
@@ -18,6 +17,5 @@ const CurrencySelector = ({ onChange }) => {
 CurrencySelector.propTypes = {
   onChange: PropTypes.func.isRequired,
 };
-
 
 export default CurrencySelector;

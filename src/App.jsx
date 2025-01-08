@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from './store/actions';
-import ChartComponent from './components/ChartComponent';
-import CurrencySelector from './components/CurrencySelector';
+import { ChartComponent } from './components/ChartComponent';
+import { CurrencySelector } from './components/CurrencySelector';
 
 const App = () => {
   const dispatch = useDispatch();

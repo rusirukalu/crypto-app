@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import PropTypes from 'prop-types';
+import { PropTypes } from 'prop-types';
 import { Chart } from 'chart.js/auto';
 
 const ChartComponent = ({ data }) => {
@@ -28,6 +28,7 @@ const ChartComponent = ({ data }) => {
 
   return <canvas ref={chartRef} />;
 };
+
 ChartComponent.propTypes = {
   data: PropTypes.arrayOf(PropTypes.array).isRequired,
 };

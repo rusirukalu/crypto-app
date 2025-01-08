@@ -1,4 +1,3 @@
-import { act } from 'react';
 import { getKlineData } from '../api';
 
 export const setData = (data) => ({
@@ -20,5 +19,3 @@ export const fetchData = (symbol, interval, startTime, endTime) => async (dispat
     console.error('Error fetching data', error);
   }
 };
-
-export default act;
